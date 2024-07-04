@@ -1,0 +1,219 @@
+body{
+    background-color: #30506B;
+    border-radius: 20px;
+    padding: 20px;
+    
+}
+
+/*Create a custom font*/
+@font-face {
+    font-family: CodingFont;
+    src: url('../Fonts/NanumGothicCoding-Regular.ttf');
+}
+
+/*Top Header*/
+.TopHeader{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+
+    /*gap: 10px;*/ /*Gap between the elements*/
+    background-image: url('../Images/CircuitsGif.gif');
+    border-radius: 20px;
+    border: 4px solid black; /* Add a black border */
+    padding: 10px;
+}
+
+.Language_Icon {
+    width: 100px; /* Set the width of the image */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 50%;
+    box-shadow: 5px -1px 2px rgba(108, 108, 109, 0.3); /* Add shadow */
+}
+
+/*Paul Manriquez*/
+.H1Container{
+    text-align: center;
+    background-image: url('../Images/CodingGif2.gif');
+    background-size: cover;
+    padding: 15px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    border-radius: 15px;
+    border: 4px solid rgb(201, 41, 41);
+}
+
+.DeveloperPhoto{
+    width: 200px;
+    border-radius: 50%;
+    border: 2px solid rgb(255, 255, 255); /* Add a black border */
+}
+
+.MyH1{
+    font-family: CodingFont,sans-serif;
+    font-size: 50px;
+    color: white;
+    text-shadow: 1px 1px 7px rgb(12, 12, 12);
+}
+
+.MyH2{
+    font-family: CodingFont,sans-serif;
+    font-size: 30px;
+    color: white;
+    text-shadow: 1px 1px 7px rgb(12, 12, 12);
+}
+
+.Presentation{
+    font-family: CodingFont,sans-serif;
+    font-size: 30px;
+    color: white;
+    text-shadow: 1px 1px 7px rgb(12, 12, 12);
+    border:2px solid rgb(201, 41, 41);
+    padding: 20px;
+    border-radius: 15px;
+    /*
+    background-image: url('../Images/Linux2.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    */
+}
+.Span1{
+    color: #65f1ea;
+    text-shadow:0 0 100px rgb(3, 3, 3)
+}
+
+/*Charts*/
+.Technologies{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 15px;
+}
+
+.LeftChart{
+    font-family: CodingFont,sans-serif;
+    font-size: 30px;
+    color: white;
+    text-shadow: 1px 1px 7px rgb(119, 114, 114);
+    border:3px solid #c0c0bf;
+    padding: 2px;
+    border-radius: 15px;
+    background-image: url('../Images/CascadeGif.gif');
+    background-size: cover;
+    padding: 10px;
+}
+
+.ToolsC{
+    text-align: center;
+}
+
+.MiddleChart{
+    font-family: CodingFont,sans-serif;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 7px rgb(0, 0, 0);
+    border:3px solid #c0c0bf;
+    padding: 2px;
+    border-radius: 15px;
+    background-image: url('../Images/ComputerGif.gif');
+    background-size: cover;
+    background-position: center;
+}
+
+.EducationC{
+    text-align: center;
+}
+
+.LiGap{
+    margin-bottom: 15px;
+    border:3px solid #1a3c6e;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+.LiGap:hover {
+    background-color: rgb(255, 255, 255); /* Change background color on hover */
+    color: rgb(0, 0, 0); /* Change text color on hover */
+}
+
+
+.LiGap2{
+    margin-bottom: 15px;
+    border:3px solid #ffffff;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+.LiGap2:hover {
+    background-color: rgb(255, 255, 255); /* Change background color on hover */
+    color: rgb(0, 0, 0); /* Change text color on hover */
+}
+
+/*TechIcons*/
+
+.TechHeader{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    margin-top: 50px;
+    margin-bottom: 0;
+    border:3px solid #ffffff;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom: #30506B;
+    padding-left: 15px;
+    padding-right: 15px;
+    
+}
+
+.LinuxPower{
+    width: 200px;
+}
+
+.H2Tech{
+    font-family: CodingFont,sans-serif;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 7px rgb(0, 0, 0);
+    text-align: center;
+    margin-top: 45px;
+}
+
+.MyTechnologies{
+    font-family: CodingFont,sans-serif;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 7px rgb(0, 0, 0);
+    border:3px solid #ffffff;
+    border-top: #30506B;
+    padding: 2px;
+    border-radius: 15px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    margin-top: 0px;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 55px 20px;
+    
+
+}
+
+.TechIcons{
+    width: 150px;
+    transition: transform 0.1s ease;
+}
+
+.TechIcons:hover{
+    transform: skewX(5deg);
+    background-color: #008cff;
+    border-radius: 15px;
+    padding: 5px;
+}
+
